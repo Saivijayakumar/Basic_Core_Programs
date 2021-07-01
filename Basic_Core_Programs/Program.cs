@@ -20,6 +20,7 @@ namespace Basic_Core_Programs
             Console.WriteLine("1. Flip Coin and print percentage of Heads and Tails");
             Console.WriteLine("2. Finding Leap Year");
             Console.WriteLine("3. Power Of Two Program");
+            Console.WriteLine("4. Harmonic Number");
             Console.WriteLine("\n-------------------------------------------");
             switch (Console.ReadLine())
             {
@@ -31,6 +32,9 @@ namespace Basic_Core_Programs
                     break;
                 case "3":
                     PowerOfTwo.ThirdProgram();
+                    break;
+                case "4":
+                    HarmonicProgram.FourthProgram();
                     break;
                 default:
                     Console.WriteLine("Please enter valid option");
