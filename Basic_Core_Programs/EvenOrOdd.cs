@@ -11,8 +11,16 @@ namespace Basic_Core_Programs
         public static void seventh()
         {
             Console.WriteLine("Enter number ");
-            int number = Convert.ToInt32(Console.ReadLine());
-            //Logic for finding given number is even or odd 
+            uint number = (uint)Convert.ToInt32(Console.ReadLine());
+            if (number & 1)
+            {
+                Console.WriteLine("{0} is a Odd Number", number);
+            }
+            else
+            {
+                Console.WriteLine("{0} is a Even Number", number);
+            }
+            /*//Logic for finding given number is even or odd 
             if(number % 2 == 0)
             {
                 Console.WriteLine("{0} is a Even Number", number);
@@ -20,7 +28,7 @@ namespace Basic_Core_Programs
             else
             {
                 Console.WriteLine("{0} is a Odd Number", number);
-            }
+            }*/
         }
     }
 }
