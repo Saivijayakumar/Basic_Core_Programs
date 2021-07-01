@@ -19,6 +19,7 @@ namespace Basic_Core_Programs
             Console.WriteLine("Choose a option from the given List");
             Console.WriteLine("1. Flip Coin and print percentage of Heads and Tails");
             Console.WriteLine("2. Finding Leap Year");
+            Console.WriteLine("3. Power Of Two Program");
             Console.WriteLine("\n-------------------------------------------");
             switch (Console.ReadLine())
             {
@@ -27,6 +28,9 @@ namespace Basic_Core_Programs
                     break;
                 case "2":
                     LeapYear.SecondProgram();
+                    break;
+                case "3":
+                    PowerOfTwo.ThirdProgram();
                     break;
                 default:
                     Console.WriteLine("Please enter valid option");
