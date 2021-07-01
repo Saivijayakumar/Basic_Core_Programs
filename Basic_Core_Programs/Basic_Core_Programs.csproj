@@ -43,8 +43,21 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+<<<<<<< HEAD
+=======
+    <Compile Include="EvenOrOdd.cs" />
+    <Compile Include="Flip_Coin.cs" />
+    <Compile Include="HarmonicProgram.cs" />
+    <Compile Include="LargeAmongThree.cs" />
+    <Compile Include="LeapYear.cs" />
+    <Compile Include="PowerOfTwo.cs" />
+    <Compile Include="PrimeFactor.cs" />
+>>>>>>> PrimeFactor
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="QandR.cs" />
+    <Compile Include="swaping.cs" />
+    <Compile Include="VowelOrConsonant.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
