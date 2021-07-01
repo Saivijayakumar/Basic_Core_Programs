@@ -18,7 +18,7 @@ namespace Basic_Core_Programs
             num2 = Convert.ToInt32(Console.ReadLine());
             Console.Write("Third Number :");
             num3 = Convert.ToInt32(Console.ReadLine());
-            //By using the Ternary Operator we are doing this logic
+            //By using the Ternary Operator concept we are doing this logic
             //Here num1 = 10 num2 = 12 num3 = 9
             string output = num1 > num2 && num1 >num3 ? "Number One Is Larger":num2 > num3 ? "Number Two Is Larger": "Number Three Is Larger";
             Console.WriteLine(output);
