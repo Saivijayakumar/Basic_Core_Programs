@@ -11,7 +11,7 @@ namespace Basic_Core_Programs
         public static void seventh()
         {
             Console.WriteLine("Enter number ");
-            uint number = (uint)Convert.ToInt32(Console.ReadLine());
+            int number = Convert.ToInt32(Console.ReadLine());
             if (number & 1)
             {
                 Console.WriteLine("{0} is a Odd Number", number);
