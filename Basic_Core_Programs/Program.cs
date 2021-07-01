@@ -26,6 +26,7 @@ namespace Basic_Core_Programs
             Console.WriteLine("7. Finding Even Or Odd");
             Console.WriteLine("8. Finding given charecter is vowel or Consonant");
             Console.WriteLine("9. Finding Largest number among three numbers");
+            Console.WriteLine("10. Finding Prime Factor Program");
             Console.WriteLine("\n-------------------------------------------");
             switch (Console.ReadLine())
             {
@@ -55,6 +56,9 @@ namespace Basic_Core_Programs
                     break;
                 case "9":
                     LargeAmongThree.NinthProgram();
+                    break;
+                case "10":
+                    PrimeFactor.TenthProgram();
                     break;
                 default:
                     Console.WriteLine("Please enter valid option");
