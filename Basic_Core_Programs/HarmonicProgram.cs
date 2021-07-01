@@ -12,12 +12,14 @@ namespace Basic_Core_Programs
         {
             Console.WriteLine("Enter nth harmonic number");
             int number = Convert.ToInt32(Console.ReadLine());
+            //Creating object for access the instance method
             HarmonicProgram harmonicProgram = new HarmonicProgram();
             harmonicProgram.FindNthHarmonicNumber(number);
         }
         private void FindNthHarmonicNumber(int number)
         {
             double sum = 0;
+            //The loop will go up to require nth number
             for(int i=1;i<=number;i++)
             {
                 sum += (double)1 / i;
