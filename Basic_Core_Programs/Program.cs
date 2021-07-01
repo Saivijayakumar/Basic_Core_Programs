@@ -22,6 +22,7 @@ namespace Basic_Core_Programs
             Console.WriteLine("3. Power Of Two Program");
             Console.WriteLine("4. Harmonic Number");
             Console.WriteLine("5. Finding Quotient And Remainder");
+            Console.WriteLine("6. Swaping Two Numbers");
             Console.WriteLine("\n-------------------------------------------");
             switch (Console.ReadLine())
             {
@@ -39,6 +40,9 @@ namespace Basic_Core_Programs
                     break;
                 case "5":
                     QandR.fifth();
+                    break;
+                case "6":
+                    swaping.sixthProgram();
                     break;
                 default:
                     Console.WriteLine("Please enter valid option");
