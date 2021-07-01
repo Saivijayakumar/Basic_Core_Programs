@@ -21,6 +21,7 @@ namespace Basic_Core_Programs
             Console.WriteLine("2. Finding Leap Year");
             Console.WriteLine("3. Power Of Two Program");
             Console.WriteLine("4. Harmonic Number");
+            Console.WriteLine("5. Finding Quotient And Remainder");
             Console.WriteLine("\n-------------------------------------------");
             switch (Console.ReadLine())
             {
@@ -35,6 +36,9 @@ namespace Basic_Core_Programs
                     break;
                 case "4":
                     HarmonicProgram.FourthProgram();
+                    break;
+                case "5":
+                    QandR.fifth();
                     break;
                 default:
                     Console.WriteLine("Please enter valid option");
