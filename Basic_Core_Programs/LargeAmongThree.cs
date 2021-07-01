@@ -18,30 +18,10 @@ namespace Basic_Core_Programs
             num2 = Convert.ToInt32(Console.ReadLine());
             Console.Write("Third Number :");
             num3 = Convert.ToInt32(Console.ReadLine());
-            //num1 = 10 num2 = 12 num3 = 9
-            if(num1 >  num2)//10 > 12  fail
-            {
-                if(num1 > num3)
-                {
-                    Console.WriteLine("Number One Is Larger");
-                }
-                else
-                {
-                    Console.WriteLine("Number Three Is Larger");
-                }
-            }
-            else
-            {
-                if(num2 > num3)//12 > 9 true
-                {
-                    Console.WriteLine("Number Two Is Larger");//This is output
-                }
-                else
-                {
-                    Console.WriteLine("Number Three Is Larger");
-                }
-            }
-
+            //By using the Ternary Operator we are doing this logic
+            //Here num1 = 10 num2 = 12 num3 = 9
+            string output = num1 > num2 && num1 >num3 ? "Number One Is Larger":num2 > num3 ? "Number Two Is Larger": "Number Three Is Larger";
+            Console.WriteLine(output);
         }
     }
     
