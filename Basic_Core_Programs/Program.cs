@@ -25,6 +25,7 @@ namespace Basic_Core_Programs
             Console.WriteLine("6. Swaping Two Numbers");
             Console.WriteLine("7. Finding Even Or Odd");
             Console.WriteLine("8. Finding given charecter is vowel or Consonant");
+            Console.WriteLine("9. Finding Largest number among three numbers");
             Console.WriteLine("\n-------------------------------------------");
             switch (Console.ReadLine())
             {
@@ -51,6 +52,9 @@ namespace Basic_Core_Programs
                     break;
                 case "8":
                     VowelOrConsonant.EighthProgram();
+                    break;
+                case "9":
+                    LargeAmongThree.NinthProgram();
                     break;
                 default:
                     Console.WriteLine("Please enter valid option");
