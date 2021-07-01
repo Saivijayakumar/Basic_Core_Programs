@@ -24,6 +24,7 @@ namespace Basic_Core_Programs
             Console.WriteLine("5. Finding Quotient And Remainder");
             Console.WriteLine("6. Swaping Two Numbers");
             Console.WriteLine("7. Finding Even Or Odd");
+            Console.WriteLine("8. Finding given charecter is vowel or Consonant");
             Console.WriteLine("\n-------------------------------------------");
             switch (Console.ReadLine())
             {
@@ -47,6 +48,9 @@ namespace Basic_Core_Programs
                     break;
                 case "7":
                     EvenOrOdd.seventh();
+                    break;
+                case "8":
+                    VowelOrConsonant.EighthProgram();
                     break;
                 default:
                     Console.WriteLine("Please enter valid option");
